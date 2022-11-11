@@ -100,8 +100,8 @@ class ecommerce extends StatelessWidget {
              child: Row(
                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                children: [
-              TextButton(onPressed: (){}, child:  const Text("Special for you",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,
-               fontSize: 20),),),
+              Text("Special for you",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,
+               fontSize: 20),),
                TextButton(onPressed: (){}, child: const Text("See More",style: TextStyle(color: Colors.black,fontSize: 15),))]),
                ),
 
@@ -153,8 +153,8 @@ class ecommerce extends StatelessWidget {
              child: Row(
                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                children: [
-              TextButton(onPressed: (){}, child:  const Text("Popular Product",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,
-               fontSize: 20),),),
+              Text("Popular Product",style: TextStyle(color: Colors.black,fontWeight: FontWeight.bold,
+               fontSize: 20),),
                TextButton(onPressed: (){}, child: const Text("See More",style: TextStyle(color: Colors.black,fontSize: 15),))]),
                ),
             Padding(padding: const EdgeInsets.only(top: 30),
